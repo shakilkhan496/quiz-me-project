@@ -31,21 +31,21 @@ function Nav() {
 
                                     <NavLink to='topics'
 
-                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
+                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:scale-125 transition hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
                                     >
                                         Topics
                                     </NavLink>
 
                                     <NavLink to='statics'
 
-                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
+                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:scale-125 transition hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
                                     >
                                         Statics
                                     </NavLink>
 
                                     <NavLink to='blog'
 
-                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
+                                        className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:scale-125 transition hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
                                     >
                                         Blog
                                     </NavLink>
