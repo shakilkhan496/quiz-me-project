@@ -20,7 +20,7 @@ function Nav() {
                                 />
                                 <NavLink to='/'
 
-                                    className=" text-3xl  px-3 py-2 rounded-md text-sm font-medium"
+                                    className=" font-bold text-4xl  px-3 py-2 rounded-md text-sm "
                                 >
                                     Quiz <span className="text-blue-700">ME</span>
                                 </NavLink>
@@ -115,7 +115,7 @@ function Nav() {
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                 <NavLink to='/topics'
 
-                                    className="hover:bg-gray-700 text-white  block px-3 py-2 rounded-md text-base font-medium"
+                                    className="hover:bg-gray-700 hover:text-white  block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Topics
                                 </NavLink>
