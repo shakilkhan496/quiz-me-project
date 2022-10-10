@@ -42,13 +42,17 @@ function App() {
         },
         {
           path: '/statics',
-          element: <Statics></Statics>
+          element: <Statics></Statics>,
+          loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz')
+          }
         },
         {
           path: '/blogs',
           element: <Blogs></Blogs>
-        }
-        ,
+
+        },
+
         {
           path: '*',
           element: <div><h1>404 NOT FOUND</h1></div>

@@ -20,9 +20,9 @@ function Nav() {
                                 />
                                 <NavLink to='/'
 
-                                    className=" font-bold text-4xl  px-3 py-2 rounded-md text-sm "
+                                    className=" font-bold  px-3 py-2 rounded-md text-sm "
                                 >
-                                    Quiz <span className="text-blue-700">ME</span>
+                                    <span className="text-4xl"> Quiz</span> <span className="text-blue-700 text-4xl">ME</span>
                                 </NavLink>
                             </div>
                             <div className="hidden md:block ml-96">
@@ -42,13 +42,14 @@ function Nav() {
                                     >
                                         Statics
                                     </NavLink>
-
-                                    <NavLink to='blog'
+                                    <NavLink to='/blogs'
 
                                         className={({ isActive }) => isActive ? ' bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium' : ' hover:bg-gray-700 hover:scale-125 transition hover:text-white px-3 py-2 rounded-md text-sm font-medium'}
                                     >
-                                        Blog
+                                        Blogs
                                     </NavLink>
+
+
 
 
                                 </div>
@@ -126,13 +127,14 @@ function Nav() {
                                 >
                                     Statics
                                 </NavLink>
-
                                 <NavLink to='/blogs'
 
                                     className=" hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Blogs
                                 </NavLink>
+
+
 
 
                             </div>
