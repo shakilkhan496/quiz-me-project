@@ -5,7 +5,7 @@ import Topics from '../Topics/Topics';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Header data-aos="zoom-in"></Header>
             <Topics data-aos="zoom-in"></Topics>
 
         </div>
