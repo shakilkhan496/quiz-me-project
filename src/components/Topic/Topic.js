@@ -6,7 +6,7 @@ const Topic = ({ topic }) => {
     const { name, logo, id } = topic;
     return (
 
-        <div class="max-w-sm hover:scale-110 hover:bg-gray-500 transition bg-black text-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div data-aos="zoom-in" class="max-w-sm hover:scale-110 hover:bg-gray-500 transition bg-black text-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div>
                 <img class="rounded-t-lg" src={logo} alt={name} />
             </div>

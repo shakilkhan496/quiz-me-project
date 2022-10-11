@@ -6,8 +6,18 @@ import Quiz from './components/Quiz/Quiz';
 import Statics from './components/Statics/Statics';
 import Topics from './components/Topics/Topics';
 import Main from './layout/Main';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   const router = createBrowserRouter([
     {
       path: '/',

@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Topics></Topics>
+            <Topics data-aos="zoom-in"></Topics>
 
         </div>
     );
