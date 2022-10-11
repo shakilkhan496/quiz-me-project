@@ -9,7 +9,7 @@ const Statics = () => {
 
     return (
         <div>
-            <div className='mt-20'>
+            <div className='mt-28'>
                 <h1 data-aos="fade-right" className='text-center text-5xl font-semibold'>Question <span className='text-blue-600'>Statistics</span></h1>
             </div>
             <div data-aos="zoom-in" className='mx-auto mt-20 w-full lg:ml-96'>
